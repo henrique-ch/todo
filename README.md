@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Install
 
-Things you may want to cover:
+## Clone the repository 
 
-* Ruby version
+```shell
+ git clone git@github.com:henrique-ch/todo.git
+ cd todo
+```
 
-* System dependencies
+## Install dependencies
 
-* Configuration
+```shell
+ bundle && yarn
+```
 
-* Database creation
+## Initialize the database 
 
-* Database initialization
+```shell
+ rails db:create db:migrate 
+```
 
-* How to run the test suite
+## Server
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```shell
+  bin/dev
+```
