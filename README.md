@@ -1,27 +1,27 @@
 # README
 
-# Install
+## Install
 
-## Clone the repository 
+### Clone the repository 
 
 ```shell
  git clone git@github.com:henrique-ch/todo.git
  cd todo
 ```
 
-## Install dependencies
+### Install dependencies
 
 ```shell
  bundle && yarn
 ```
 
-## Initialize the database 
+### Initialize the database 
 
 ```shell
  rails db:create db:migrate 
 ```
 
-## Server
+### Server
 
 ```shell
   bin/dev
